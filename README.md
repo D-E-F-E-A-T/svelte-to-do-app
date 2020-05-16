@@ -4,6 +4,10 @@
     <img style="width: 100%;" src="images/screenshot.jpg" />
 </div>
 
+<div style="text-align: center; font-size: 26px">
+    <a href="https://eduardojm.github.io/svelte-to-do-app/" target="blank">Visualização Online</a>
+</div>
+
 ## :bulb: Sobre
 
 Esse é meu primeiro app desenvolvido com o Svelte, desenvolvido objetivando os estudos da tecnologia junto com JavaScript e CSS. A ideia e tutoriais de introdução a linguagem vieram de [dev.to/simonholdorf](https://dev.to/simonholdorf/9-projects-you-can-do-to-become-a-frontend-master-in-2020-n2h) e [svelte.dev](https://svelte.dev/).
@@ -52,14 +56,6 @@ npm run dev
 ```bash
 npm run build
 ```
-
-## :bookmark_tabs: Coisas a Fazer
-
-- TODO: Reestruturar o código de marcação e refazer os estilos para melhor experiência de usuário e mais elegância.
-
-- TODO: Melhorar a exibição para celulares.
-
-- TODO: Adicionar pré-visualização online.
 
 ## :nerd_face: Autor
 
