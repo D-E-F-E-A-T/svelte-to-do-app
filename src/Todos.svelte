@@ -80,14 +80,15 @@
     .container {
         width: 100%;
         height: 95%;
+        max-height: 100%;
         max-width: 800px;
-        margin: 5px auto;
+        box-sizing: border-box;
+        overflow: hidden;
         display: flex;
         flex-direction: column;
         align-items: stretch;
         justify-content: space-between;
         background: #FFF;
-        box-sizing: border-box;
         padding: 10px;
     }
 
@@ -128,7 +129,7 @@
         padding: 20px 0;
     }
     header > .header-left {
-        flex: 0 0 50%;
+        flex: 1;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -144,7 +145,6 @@
         margin: 6px 0;
     }
     header > .header-right {
-        flex: 0 0 50%;
         display: flex;
         flex-direction: row;
         justify-content: end;
@@ -175,8 +175,8 @@
     .circle-button-container .circle-button-drop {
         position: absolute;
         z-index: 50;
-        left: -300px;
-        width: calc(300px - 32px);
+        left: -270px;
+        width: calc(270px - 32px);
         border-radius: 32px 0 0 32px;
         height: 64px;
         background: #CCC;
@@ -190,6 +190,7 @@
     }
     .circle-button-container .circle-button-drop input[type="text"] {
         flex: 1;
+        width: 100%;
         border: none;
         outline: none;
         background: transparent;
@@ -257,7 +258,6 @@
      */
     @media screen and (max-width: 600px) {
         .container {
-            width: 100%;
             height: 100%;
             padding: 20px;
             border-radius: 0;
@@ -269,6 +269,16 @@
             align-items: center;
             justify-content: center;
             margin: 2px 0;
+        }
+
+        header > .header-left h2 {
+            color: #676767;
+            font-size: 2rem;
+        }
+        header > .header-left h3 {
+            color: #5a73e0;
+            font-size: 1.2rem;
+            margin: 6px 0;
         }
     }
 </style>
